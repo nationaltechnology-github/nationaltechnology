@@ -27,3 +27,16 @@
         }
     });
 })();
+
+// Highlight Environments nav link when #environments hash is present
+(function() {
+    if (window.location.hash === '#environments') {
+        var links = document.querySelectorAll('.nav-links a');
+        links.forEach(function(a) {
+            a.classList.remove('active');
+            if (a.getAttribute('href') === 'history.html#environments') {
+                a.classList.add('active');
+            }
+        });
+    }
+})();
