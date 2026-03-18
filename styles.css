@@ -4,18 +4,18 @@
    ============================================ */
 
 :root {
-    --bg-primary: #0a0f1a;
-    --bg-secondary: #0f1624;
-    --bg-card: #141c2e;
-    --bg-card-hover: #1a2540;
-    --border: #1e2a45;
-    --border-light: #283654;
+    --bg-primary: #142847;
+    --bg-secondary: #1a3155;
+    --bg-card: #213b63;
+    --bg-card-hover: #29456f;
+    --border: #35527b;
+    --border-light: #48668f;
     --text-primary: #e8ecf4;
-    --text-secondary: #8b95a8;
-    --text-dim: #5a6478;
-    --accent: #7f9bb3;
-    --accent-dim: #4f6578;
-    --accent-glow: rgba(127, 155, 179, 0.14);
+    --text-secondary: #a7b3c6;
+    --text-dim: #72809a;
+    --accent: #9ab0c6;
+    --accent-dim: #6f89a3;
+    --accent-glow: rgba(154, 176, 198, 0.16);
     --white: #ffffff;
     --font-sans: 'IBM Plex Sans', -apple-system, sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
@@ -47,7 +47,7 @@ img { max-width: 100%; display: block; }
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 100;
-    background: rgba(10, 15, 26, 0.85);
+    background: rgba(20, 40, 71, 0.88);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
     transition: background 0.3s;
@@ -70,13 +70,17 @@ img { max-width: 100%; display: block; }
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 36px; height: 36px;
-    background: var(--accent);
-    color: var(--bg-primary);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    background: transparent;
+    color: inherit;
+    border-radius: 0;
+    padding: 0;
+}
+.logo-mark-img {
+    display: block;
+    width: 28px;
+    height: 28px;
 }
 .logo-text {
     font-weight: 600;
@@ -147,7 +151,7 @@ img { max-width: 100%; display: block; }
     color: var(--bg-primary);
 }
 .btn-primary:hover {
-    background: #91adc3;
+    background: #aec0d3;
     box-shadow: 0 0 24px var(--accent-glow);
 }
 .btn-outline {
@@ -602,7 +606,6 @@ img { max-width: 100%; display: block; }
 }
 .footer-brand .logo-mark {
     width: 28px; height: 28px;
-    font-size: 11px;
 }
 .footer-brand .logo-text {
     font-size: 14px;
