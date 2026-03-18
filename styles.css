@@ -13,9 +13,9 @@
     --text-primary: #e8ecf4;
     --text-secondary: #8b95a8;
     --text-dim: #5a6478;
-    --accent: #10b981;
-    --accent-dim: #065f46;
-    --accent-glow: rgba(16, 185, 129, 0.15);
+    --accent: #7f9bb3;
+    --accent-dim: #4f6578;
+    --accent-glow: rgba(127, 155, 179, 0.14);
     --white: #ffffff;
     --font-sans: 'IBM Plex Sans', -apple-system, sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
@@ -147,7 +147,7 @@ img { max-width: 100%; display: block; }
     color: var(--bg-primary);
 }
 .btn-primary:hover {
-    background: #0fd993;
+    background: #91adc3;
     box-shadow: 0 0 24px var(--accent-glow);
 }
 .btn-outline {
@@ -174,8 +174,8 @@ img { max-width: 100%; display: block; }
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse 60% 50% at 20% 50%, rgba(16, 185, 129, 0.06), transparent),
-        radial-gradient(ellipse 50% 60% at 80% 30%, rgba(16, 185, 129, 0.04), transparent);
+        radial-gradient(ellipse 60% 50% at 20% 50%, rgba(127, 155, 179, 0.06), transparent),
+        radial-gradient(ellipse 50% 60% at 80% 30%, rgba(127, 155, 179, 0.04), transparent);
 }
 .hero-grid-overlay {
     position: absolute;
